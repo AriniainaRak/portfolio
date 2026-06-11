@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Développeur</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Manrope:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">&lt; Ariniaina Tafita /&gt;</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#education">Formation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Développeur </h1>
+                    <p class="hero-description">
+                        Développeur web passionné, spécialisé dans la création d'expériences numériques élégantes et performantes.
+                    </p>
+                    <div class="cta-buttons">
+                        <a class="btn btn-primary" href="#projects">Voir mes projets</a>
+                        <a class="btn btn-secondary" href="#contact">Me contacter</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-window">
+                        <div class="window-header">
+                            <span class="window-dot dot-red"></span>
+                            <span class="window-dot dot-yellow"></span>
+                            <span class="window-dot dot-green"></span>
+                        </div>
+                        <div class="code-content">
+                           <div class="code-line"><span class="code-keyword">const</span> <span class="code-function">developer</span> = {</div>
+                        <div class="code-line">  name: <span class="code-string">'Ariniaina'</span>,</div>
+                        <div class="code-line">  skills: [<span class="code-string">'Java'</span>, <span class="code-string">'PHP'</span>, <span class="code-string">'Python'</span>, <span class="code-string">'JavaScript'</span>],</div>
+                        <div class="code-line">  passion: <span class="code-string">'Créer des solutions innovantes'</span></div>
+                        <div class="code-line">};</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="profile-pic">👨‍💻</div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        Développeur passionné avec une solide expertise dans la conception et le développement 
+                        d'applications web performantes et scalables. J'aime relever des défis techniques complexes 
+                        et créer des solutions innovantes.
+                    </p>
+                    <p>
+                        Mon approche combine les meilleures pratiques de développement, une architecture solide et 
+                        une attention particulière à la sécurité et aux performances. Je suis constamment à la recherche 
+                        de nouvelles technologies et méthodologies pour améliorer mes compétences.
+                    </p>
+                    <p>
+                        Actuellement, je me spécialise dans le développement full stack, la gestion de bases de 
+                        données relationnelles et NoSQL, ainsi que le déploiement d'applications dans des environnements cloud.
+                    </p>
+
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">1+</div>
+                            <div class="stat-label">Années d'expérience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Projets réalisés</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Technologies maîtrisées</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Compétences techniques</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Langages</h3>
+                    <ul class="skill-list">
+                        <li>JavaScript </li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>PHP</li>
+                        <li>HTML & CSS</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Frameworks</h3>
+                    <ul class="skill-list">
+                        <li>React.js</li>
+                        <li>Django</li>
+                        <li>Laravel</li>
+                        <li>Codeigniter</li>
+                        <li>Bootstrap</li>
+                        <li>Spring Boot</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Bases de données</h3>
+                    <ul class="skill-list">
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Outils & Méthodes</h3>
+                    <ul class="skill-list">
+                        <li>Git / GitHub / GitLab</li>
+                        <li>Agile / Scrum</li>
+                        <li>VS Code</li>                        
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2>Expériences professionnelles</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-title">Stage - Développeur Front-End</div>
+                            <div class="timeline-company">ISETS Madagascar</div>
+                        </div>
+                        <div class="timeline-date">Aout 2025 - Oct 2025</div>
+                    </div>
+                    <div class="timeline-description">
+                        <p>Participation au développement d'une application web.</p>
+                        <ul>
+                            <li>Développement de visuel avec HTML+Css et Javascript</li>
+                            <li>Implémentation d'authentification gestion des sessions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-title">Stage - Developpeur FullStack</div>
+                            <div class="timeline-company">Assurance ARO Madagascar</div>
+                        </div>
+                        <div class="timeline-date">Jan 2024 - Avril 2024</div>
+                    </div>
+                    <div class="timeline-description">
+                        <p>Conception et développement d'une application de gestion de reclamation.</p>
+                        <ul>
+                            <li>Développement d'une interface simple et efficace avec  Python/Django et Javascript</li>
+                            <li>Intégration de services tiers (authentification, notifications, repartitions taches)</li>
+                            <li>Optimisation des requêtes SQL réduisant les temps de réponse de 60%</li>
+                            <li>Gestion des bases de données PostgreSQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projets réalisés</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Application de Reclamation</h3>
+                        <p class="project-description">
+                            Plateforme de gestion des reclamations pour une entreprise. Interface simple, moderne et responsive.
+
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTMl, CSS</span>
+                            <span class="tech-tag">Javascript</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Django</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <div class="project-content">
+                        <h3 class="project-title">Miketriky</h3>
+                        <p class="project-description">
+                            Plateforme d’apprentissage de recette malgaches (seulement), on peut regarder les recettes des plats malgaches.
+                            En cours de finalisation
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Javascript</span>
+                            <span class="tech-tag">Vite</span>
+                            <span class="tech-tag">Supabase</span>
+                            <span class="tech-tag">PostgreSql</span>
+                        </div>
+                        <div class="project-links">
+                            <a class="project-link" href="https://github.com/AriniainaRak/miketriky#">GitHub</a>
+                            <a class="project-link" href="https://ariniainarak.github.io/miketriky/">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Formation</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <div class="education-icon">🎓</div>
+                    <div class="education-details">
+                        <h3>Master</h3>
+                        <div class="education-school">University of Technologie Mauritius </div>
+                        <div class="education-date">2025 - ...</div>
+                        <div class="education-description">
+                            Spécialisation en Intelligence Artificielle et Machine Learning (MSc AIML).
+Recherche de dissertation axée sur la détection d'images synthétiques générées par IA,
+avec application aux systèmes de vérification d'identité (KYC/FinTech)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-icon">📚</div>
+                    <div class="education-details">
+                        <h3>Licence</h3>
+                        <div class="education-school">IT University - Madagascar</div>
+                        <div class="education-date">2020 - 2023</div>
+                        <div class="education-description">
+                            Formation généraliste en informatique avec focus sur la programmation, 
+                            les bases de données et les réseaux.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-icon">🏆</div>
+                    <div class="education-details">
+                        <h3>Game Developer</h3>
+                        <div class="education-school">Unity, AR-VR</div>
+                        <div class="education-date">2023</div>
+                        <div class="education-description">
+                            Formation en développement de jeux vidéo avec Unity, couvrant la programmation C#, 
+                            la conception de niveaux et les meilleures pratiques de développement de jeux.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Me contacter</h2>
+            <div class="contact-content">
+                <p class="contact-text">
+                    Je suis toujours ouvert à discuter de nouveaux projets, d'opportunités professionnelles 
+                    ou simplement échanger sur les technologies. N'hésitez pas à me contacter !
+                </p>
+
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <a href="mailto:ariniaina.tafita@gmail.com">Ariniaina Tafita</a>
+                    </div>
+
+                    <div class="contact-method">
+                        <div class="contact-icon">💼</div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://linkedin.com/in/ariniaina-rakotobe-a6730327" target="_blank">Ariniaina Rakotobe</a>
+                    </div>
+
+                    <div class="contact-method">
+                        <div class="contact-icon">🐙</div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/AriniainaRak" target="_blank">AriniainaRak</a>
+                    </div>
+
+                    <div class="contact-method">
+                        <div class="contact-icon">📱</div>
+                        <h3>Téléphone</h3>
+                        <a href="tel:+23055341276">+230 55 34 12 76</a>
+                    </div>
+                </div>
+
+                <a class="btn btn-primary" href="mailto:ariniaina.tafita@gmail.com">Envoyer un message</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Ariniaina Tafita | Conçu avec passion ❤️</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
